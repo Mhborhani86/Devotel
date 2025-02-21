@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "d3c02b0f-d4a8-4ff1-854e-8e8836eaf822",
+		"name": "DevoTel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/job-offers/provider1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/job-offers/provider1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/job-offers/provider2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/job-offers/provider2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/job-offers/import",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"jobId\": \"P1-269\",\r\n        \"title\": \"Software Engineer\",\r\n        \"details\": {\r\n            \"location\": \"San Francisco, CA\",\r\n            \"type\": \"Part-Time\",\r\n            \"salaryRange\": \"$68k - $126k\"\r\n        },\r\n        \"company\": {\r\n            \"name\": \"DataWorks\",\r\n            \"industry\": \"Design\"\r\n        },\r\n        \"skills\": [\r\n            \"Java\",\r\n            \"Spring Boot\",\r\n            \"AWS\"\r\n        ],\r\n        \"postedDate\": \"2025-02-11T09:12:22.380Z\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/job-offers/import"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/job-offers?title=Backend&location=San Francisco&page=2&pageSize=5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/job-offers?title=Backend&location=San Francisco&page=2&pageSize=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"job-offers"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Backend"
+						},
+						{
+							"key": "location",
+							"value": "San Francisco"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "pageSize",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

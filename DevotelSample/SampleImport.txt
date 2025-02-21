@@ -1,0 +1,2 @@
+Post >  http://localhost:3000/job-offers/import
+Result > Successfully imported jobs. // Insert databsae postgresql

@@ -1,0 +1,38 @@
+Get http://localhost:3000/job-offers/provider1
+
+[
+    {
+        "jobId": "P1-653",
+        "title": "Data Scientist",
+        "location": "New York, NY",
+        "type": "Part-Time",
+        "salaryRange": "$59k - $114k",
+        "companyName": "DataWorks",
+        "industry": "Analytics",
+        "website": "N/A",
+        "experienc": null,
+        "skills": [
+            "JavaScript",
+            "Node.js",
+            "React"
+        ],
+        "postedDate": "2025-02-11T10:56:59.063Z"
+    },
+    {
+        "jobId": "P1-663",
+        "title": "Frontend Developer",
+        "location": "Seattle, WA",
+        "type": "Contract",
+        "salaryRange": "$71k - $133k",
+        "companyName": "BackEnd Solutions",
+        "industry": "Analytics",
+        "website": "N/A",
+        "experienc": null,
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL"
+        ],
+        "postedDate": "2025-02-11T02:21:16.955Z"
+    }
+]

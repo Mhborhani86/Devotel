@@ -1,0 +1,37 @@
+Get http://localhost:3000/job-offers/provider2
+[
+    {
+        "jobId": "job-380",
+        "title": "Software Engineer",
+        "location": "Austin,TX",
+        "type": "N/A",
+        "salaryRange": "$76k - $111k",
+        "companyName": "TechCorp",
+        "industry": "N/A",
+        "website": "https://creativedesign ltd.com",
+        "experienc": 4,
+        "skills": [
+            "JavaScript",
+            "Node.js",
+            "React"
+        ],
+        "postedDate": "2025-02-15T00:00:00.000Z"
+    },
+    {
+        "jobId": "job-460",
+        "title": "Backend Engineer",
+        "location": "San Francisco,TX",
+        "type": "N/A",
+        "salaryRange": "$71k - $113k",
+        "companyName": "Creative Design Ltd",
+        "industry": "N/A",
+        "website": "https://techcorp.com",
+        "experienc": 3,
+        "skills": [
+            "HTML",
+            "CSS",
+            "Vue.js"
+        ],
+        "postedDate": "2025-02-19T00:00:00.000Z"
+    }
+]

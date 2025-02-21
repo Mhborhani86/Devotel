@@ -1,0 +1,97 @@
+Get > http://localhost:3000/job-offers?title=Backend&location=San Francisco&page=2&pageSize=5
+Result >
+{
+    "message": "Jobs fetched successfully",
+    "data": {
+        "data": [
+            {
+                "jobId": "P1-807",
+                "title": "Backend Engineer",
+                "location": "San Francisco, CA",
+                "type": "Contract",
+                "salaryRange": "$85k - $149k",
+                "companyName": "BackEnd Solutions",
+                "website": "N/A",
+                "experienc": null,
+                "industry": "Technology",
+                "skills": [
+                    "JavaScript",
+                    "Node.js",
+                    "React"
+                ],
+                "postedDate": "2025-02-18T08:05:01.389Z"
+            },
+            {
+                "jobId": "job-531",
+                "title": "Backend Engineer",
+                "location": "San Francisco,TX",
+                "type": "N/A",
+                "salaryRange": "$67k - $98k",
+                "companyName": "TechCorp",
+                "website": "https://creativedesign ltd.com",
+                "experienc": 3,
+                "industry": "N/A",
+                "skills": [
+                    "JavaScript",
+                    "Node.js",
+                    "React"
+                ],
+                "postedDate": "2025-02-13T00:00:00.000Z"
+            },
+            {
+                "jobId": "job-464",
+                "title": "Backend Engineer",
+                "location": "San Francisco,CA",
+                "type": "N/A",
+                "salaryRange": "$60k - $93k",
+                "companyName": "Creative Design Ltd",
+                "website": "https://techcorp.com",
+                "experienc": 2,
+                "industry": "N/A",
+                "skills": [
+                    "Python",
+                    "Machine Learning",
+                    "SQL"
+                ],
+                "postedDate": "2025-02-12T00:00:00.000Z"
+            },
+            {
+                "jobId": "P1-142",
+                "title": "Backend Engineer",
+                "location": "San Francisco, CA",
+                "type": "Part-Time",
+                "salaryRange": "$91k - $109k",
+                "companyName": "TechCorp",
+                "website": "N/A",
+                "experienc": null,
+                "industry": "Analytics",
+                "skills": [
+                    "Python",
+                    "Machine Learning",
+                    "SQL"
+                ],
+                "postedDate": "2025-02-09T18:41:06.410Z"
+            },
+            {
+                "jobId": "job-695",
+                "title": "Backend Engineer",
+                "location": "San Francisco,NY",
+                "type": "Remote",
+                "salaryRange": "$63k - $92k",
+                "companyName": "TechCorp",
+                "website": "https://creativedesign ltd.com",
+                "experienc": 1,
+                "industry": "N/A",
+                "skills": [
+                    "HTML",
+                    "CSS",
+                    "Vue.js"
+                ],
+                "postedDate": "2025-02-19T00:00:00.000Z"
+            }
+        ],
+        "total": 25,
+        "totalPages": 5,
+        "currentPage": "2"
+    }
+}
